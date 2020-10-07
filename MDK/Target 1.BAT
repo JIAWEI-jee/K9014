@@ -1,0 +1,20 @@
+SET C51INC=C:\program_list\keil\C51\Inc;C:\program_list\keil\C51\Inc\Holychip
+SET C51LIB=C:\program_list\keil\C51\Lib
+SET CPU_TYPE=HC89F303
+SET CPU_VENDOR=HolyChip
+SET UV2_TARGET=Target 1
+SET CPU_XTAL=0x01E84800
+"C:\program_list\keil\C51\BIN\A51.EXE" @".\output\STARTUP._ia"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\main.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\flash.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\delay.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\ht1621b.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\lcd_display.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\uart.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\key.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\timer.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\pwm.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\adc.__i"
+"C:\program_list\keil\C51\BIN\C51.EXE" @".\output\wdt.__i"
+"C:\program_list\keil\C51\BIN\BL51.EXE" @".\output\K9014.lnp"
+"C:\program_list\keil\C51\BIN\OH51.EXE" ".\output\K9014" 
