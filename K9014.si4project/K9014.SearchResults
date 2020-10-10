@@ -1,0 +1,16 @@
+---- Open_Heat_Value Matches (15 in 3 files) ----
+temperature_handle in main.c (source) : 						Open_Heat_Value = corrected_value_GAP_6_temp;
+temperature_handle in main.c (source) : 						Open_Heat_Value = corrected_value_warm_temp	;
+Controll_Heat in main.c (source) : 	else if ( temp_now < ( temp_set - Open_Heat_Value ) )
+timer.c (HAEDWARE\Timer) line 13 : u8  Open_Heat_Value = 0;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_warm_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_1_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_2_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_3_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_4_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_5_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_6_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_7_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_8_temp;
+set_correct_Value in timer.c (HAEDWARE\Timer) : 			Open_Heat_Value = corrected_value_GAP_9_temp;
+timer.h (HAEDWARE\Timer) line 25 : extern u8  Open_Heat_Value;
